@@ -1,0 +1,124 @@
+.container{
+    display: grid;
+    height: 700px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(60 , 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    font-family: montserrat;
+}
+body{
+    background: #896e69;
+}
+header{
+    background: #ffa577;
+    grid-column: 4 / 10 ;
+    grid-row: 0.5/ 5;
+    align: center;
+    border-radius: 15px;
+}
+nav{
+    background: #d55448;
+    grid-column: 4 / 10 ;
+    grid-row: 2 / 7;
+    z-index: 2;
+    border-radius: 15px;
+    color: #f9f9ff;
+    font-size: 12px;
+}
+aside{ 
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) ;
+    grid-template-rows: repeat(8, 1fr);
+    background: #d55448;
+    grid-column: 4/6;
+    grid-row: 7/45;
+    border-radius: 15px;
+    color: #ffa577;
+   } 
+.div_aside_1{
+    grid-column: 3 / 6 ;
+    grid-row:3 / 2; 
+    width: 150px;
+    height: 80px;
+}
+.div_aside_2{
+    grid-column: 3 / 7 ;
+    grid-row: 7/ 5; 
+    width: 150px;
+    height: 80px;
+}
+.div_aside_3{
+    grid-column: 2 / 7 ;
+    grid-row: 7 / 7;
+    width: 150px;
+    height: 80px;
+ }
+main{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) ; 
+    grid-template-rows: repeat(8, 1fr); 
+    background: #ffa577; 
+    grid-column: 6/10;
+    grid-row: -55/46; 
+    border-radius: 15px;
+}
+section{
+    grid-column: 7 / 3 ;
+    grid-row: -55 / 40; 
+    display: grid;
+    grid-template-columns: repeat(6, 10fr);
+    grid-template-rows: repeat(4, 6fr);
+    background: #ffa577;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 15px;
+    color: #f9f9ff;}
+.article_1{
+    / background: rgb(49, 83, 49); /
+    grid-column: 2/8 ;
+    grid-row: 3/5;
+    font-size: 12px;
+    color: #f9f9ff;
+
+}
+.article_2{
+    / background: rgb(49, 83, 49); */
+    grid-column: 3/8 ;
+    grid-row: 6/8;
+    font-size: 12px;
+    color: #f9f9ff;
+}
+footer{
+    background: #d55448;
+    grid-column: 4 / 10 ;
+    grid-row: 46 / 52;
+    border-radius: 15px;
+    color: #f9f9ff;
+
+}
+img{
+    width: 150px;
+}
+.b12{
+    height: 150px;
+}
+h1{
+    font-size: 25px;
+    color: #f9f9ff;
+}
+.p_1{
+    display: grid;
+
+}
+.p_1:hover{
+    color: #896e69;
+    display: flex;
+    justify-content: center;
+}
+.p_2:hover{
+    color: #896e69;
+    display: flex;
+    justify-content: center;
+}
